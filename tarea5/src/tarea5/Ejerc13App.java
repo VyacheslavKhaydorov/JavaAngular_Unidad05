@@ -20,6 +20,7 @@ public class Ejerc13App {
 		valor1 = input.nextInt();
 		System.out.println("Introduce el segundo valor de la operación:");
 		valor2 = input.nextInt();
+		input.nextLine();	//Para consumir el salto de línea
 		System.out.println("Introduce el signo aritmético de la operación\n"
 				+ "(+ para sumar, - para restar, * para multiplicar, / para dividir,\n"
 				+ " ^ para elevar el primer valor a la potencia del segundo, y % para el"
