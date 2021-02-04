@@ -82,7 +82,7 @@ public class Ejerc13App {
 			JOptionPane.showMessageDialog(null, "No se puede dividir entre 0!");
 			System.exit(0);
 		}	
-		return (a / b);
+		return ((double)a / (double)b);
 	}
 	
 	public static int potencia (int a, int b) {
